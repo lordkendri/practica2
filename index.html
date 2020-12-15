@@ -1,0 +1,1682 @@
+<!DOCTYPE html>
+<html lang=”es”>
+<head>
+</head>
+<body>
+<pre>
+<h3><strong>Mostrar 100 Etiquetas HTML, conforme a la siguiente estructura.
+Nombre: Kendri Valdez		Matricula:100414428
+Nombre de la Etiqueta
+Descripción
+Ejemplo de cómo usar
+Cualquier elemento adicional con respecto a la etiqueta es válido.</strong></h3>
+<strong>1.	&lt!DOCTYPE&gt</strong>
+Sirve para aclarar el tipo de documento con el que vamos a trabajar.
+
+&lt!DOCTYPE html&gt
+&lthtml lang=”es”&gt
+&lt/html&gt 
+
+<strong>2.	&lthead&gt</strong>
+El código HTML insertado entre las etiquetas &lthtml&gt se dividen en 2 secciones principales
+el &lthead&gt y el &ltbody&gt, el head es la cabecera donde usualmente se introducen elementos 
+que no son visibles a los usuarios (back-end).
+
+&lt!DOCTYPE html&gt
+&lthtml lang="es"&gt
+&lthead&gt
+&lt/head&gt
+&lt/html&gt
+
+<strong>3.	&ltbody&gt</strong>
+Es la sección que representa la parte visible del Documento HTML o sea el cuerpo.
+
+&lt!DOCTYPE html&gt
+&lthtml lang="es"&gt
+&lthead&gt
+&lt/head&gt
+&ltbody&gt
+&lt/body&gt
+&lt/html&gt
+
+<img src="imagenestructura1.png"/>
+
+<strong>4.	&ltmeta&gt</strong>
+Va usualmente dentro de la cabecera &ltbody&gt además tiene otras etiquetas como description,
+keywords, que sirven para describir aspectos de la página web y con palabras claves facilitar
+la localización de la web en los buscadores y el atributo name especifica el tipo y el atributo 
+content su valor y ninguno de estos elementos se muestra en pantalla.
+
+&lt!DOCTYPE html&gt
+&lthtml lang="es"&gt
+&lthead&gt
+
+ &ltmeta charset="iso-8859-1" /&gt
+ &ltmeta name="description" content="Ejemplo de HTML5" /&gt
+ &ltmeta name="keywords" content="HTML5, CSS3, JavaScript" /&gt
+
+&lt/head&gt
+&ltbody&gt
+&lt/body&gt
+&lt/html&gt
+
+<strong>5.	&ltbase&gt</strong>
+Especifica la dirección URL base que se utilizará para todas las direcciones URL relativas contenidas
+dentro de un documento. (Sólo puede haber un elemento &ltbase&gt en un documento).
+…
+&ltbase href="http://www.example.com/page.html"&gt
+&ltbase target="_blank" href="http://www.example.com/page.html"&gt
+…
+<strong>6.	&lttitle&gt</strong>
+Su función es indicar solamente el título del documento.
+
+&lt!DOCTYPE html&gt
+&lthtml lang="es"&gt
+&lthead&gt
+
+ &ltmeta charset="iso-8859-1"&gt
+ &ltmeta name="description" content="Ejemplo de HTML5"&gt
+ &ltmeta name="keywords" content="HTML5, CSS3, JavaScript"&gt
+
+ &lttitle&gtEl Socialismo no funciona&lttitle&gt
+
+&lt/head&gt
+&ltbody&gt
+&lt/body&gt
+&lt/html&gt
+
+<strong>7.	&ltlink&gt</strong>
+Otro importante elemento que va dentro de la cabecera del documento es &ltlink&gt, este
+elemento es usado para incorporar estilos, códigos Javascript, imágenes o iconos desde archivos
+externos.
+
+&lt!DOCTYPE html&gt
+&lthtml lang="es"&gt
+&lthead&gt
+
+ &ltmeta charset="iso-8859-1"&gt
+ &ltmeta name="description" content="Ejemplo de HTML5"&gt
+ &ltmeta name="keywords" content="HTML5, CSS3, JavaScript"&gt
+
+ &lttitle&gtEste texto es el título del documento&lt/title&gt
+
+ &ltlink rel=”stylesheet” href=”estilos.css”&gt
+
+&lt/head&gt
+&ltbody&gt
+&lt/body&gt
+&lt/html&gt
+
+<strong>8.	&ltheader&gt</strong>
+Sirve para proveer información introductoria (títulos, subtítulos, logos) de secciones especificas
+dentro del cuerpo, mientras que &lthead&gt provee información del documento entero.
+
+&lt!DOCTYPE html&gt
+&lthtml lang="es"&gt
+&lthead&gt
+
+ &ltmeta charset="iso-8859-1"&gt
+ &ltmeta name="description" content="Ejemplo de HTML5"&gt
+ &ltmeta name="keywords" content="HTML5, CSS3, JavaScript"&gt
+
+ &lttitle&gtEste texto es el título del documento&lt/title&gt
+
+ &ltlink rel="stylesheet" href="estilos.css"&gt
+
+&lt/head&gt
+&ltbody&gt
+
+ &ltheader&gt
+
+ &lth1&gtEste es el título principal del sitio web&lt/h1&gt
+
+ &lt/header&gt
+
+&lt/body&gt
+&lt/html&gt
+
+<strong>9.	&ltnav&gt</strong>
+Sirve para crear la sección de navegación de la página web.
+
+&lt!DOCTYPE html&gt
+&lthtml lang="es"&gt
+&lthead&gt
+
+ &ltmeta charset="iso-8859-1"&gt
+ &ltmeta name="description" content="Ejemplo de HTML5"&gt
+ &ltmeta name="keywords" content="HTML5, CSS3, JavaScript"&gt
+
+ &lttitle&gtEste texto es el título del documento&lt/title&gt
+
+ &ltlink rel="stylesheet" href="misestilos.css"&gt
+
+&lt/head&gt
+&ltbody&gt
+
+ &ltheader&gt
+
+ &lth1&gtEste es el título principal del sitio web&lt/h1&gt
+
+ &lt/header&gt
+ &ltnav&gt
+ &ltul&gt
+
+ &ltli&gtprincipal&lt/li&gt
+ &ltli&gtfotos&lt/li&gt
+ &ltli&gtvideos&lt/li&gt
+ &ltli&gtcontacto&lt/li&gt
+
+ &lt/ul&gt
+ &lt/nav&gt
+&lt/body&gt
+&lt/html&gt
+
+<strong>10.	&ltul&gt</strong>
+Esta etiqueta crea una lista sin ordenar.
+…
+&ltp&gtLista 1&lt/p&gt
+&ltul&gt
+ &ltli&gtElemento 1&lt/li&gt
+ &ltli&gtElemento 2&lt/li&gt
+ &ltli&gtElemento 3&lt/li&gt
+&lt/ul&gt
+
+&ltp&gtLista 2&lt/p&gt
+&ltul&gt
+ &ltli&gtElemento 1&lt/li&gt
+ &ltli&gtElemento 2&lt/li&gt
+ &ltli&gtElemento 3&lt/li&gt
+&lt/ul&gt
+…
+ 
+<img src="ul.png"/>
+
+<strong>11.	&ltol&gt</strong>
+Esta etiqueta crea una lista ordenada.
+…
+&ltp&gtLista 1&lt/p&gt
+&ltol&gt
+ &ltli&gtElemento 1&lt/li&gt
+ &ltli&gtElemento 2&lt/li&gt
+ &ltli&gtElemento 3&lt/li&gt
+&lt/ol&gt
+
+&ltp&gtLista 2&lt/p&gt
+&ltol&gt
+ &ltli&gtElemento 1&lt/li&gt
+ &ltli&gtElemento 2&lt/li&gt
+ &ltli&gtElemento 3&lt/li&gt
+&lt/ol&gt
+…
+
+<img src="ol.png"/>
+ 
+<strong>12.	&ltli&gt</strong>
+Representan ítems en una lista ya sea ordenada &ltol&gt o no ordenada &ltul&gt.
+…
+&ltp&gtLista 1&lt/p&gt
+&ltul&gt
+ &ltli&gtElemento 1&lt/li&gt
+ &ltli&gtElemento 2&lt/li&gt
+ &ltli&gtElemento 3&lt/li&gt
+&lt/ul&gt
+
+&ltp&gtLista 2&lt/p&gt
+&ltol&gt
+ &ltli&gtElemento 1&lt/li&gt
+ &ltli&gtElemento 2&lt/li&gt
+ &ltli&gtElemento 3&lt/li&gt
+&lt/ol&gt
+…
+ 
+<strong>13.	&ltdl&gt</strong>
+Delimitan listas completas.
+
+…
+&ltdl&gt
+  &ltdt&gtsoftware&lt/dt&gt
+  &ltdd&gtConjunto de programas, instrucciones y reglas informáticas para ejecutar ciertas tareas
+  en una computadora.&lt/dd&gt
+  &ltdt&gtlibre&lt/dt&gt
+  &ltdd&gtQue tiene facultad para obrar o no obrar.&lt/dd&gt
+  &ltdd&gtQue no es esclavo.&lt/dd&gt
+  &ltdd&gtQue no está preso.&lt/dd&gt
+  &ltdd&gtLicencioso,&lt/dd&gt
+&lt/dl&gt
+….
+
+<strong>14.	&ltdt&gt</strong>
+Delimitan los términos.
+….
+&ltdl&gt
+  &ltdt&gtsoftware&lt/dt&gt
+  &ltdd&gtConjunto de programas, instrucciones y reglas informáticas para ejecutar ciertas tareas
+  en una computadora.&lt/dd&gt
+  &ltdt&gtlibre&lt/dt&gt
+  &ltdd&gtQue tiene facultad para obrar o no obrar.&lt/dd&gt
+  &ltdd&gtQue no es esclavo.&lt/dd&gt
+  &ltdd&gtQue no está preso.&lt/dd&gt
+  &ltdd&gtLicencioso,&lt/dd&gt
+&lt/dl&gt
+…
+
+<strong>15.	&ltdd&gt</strong>
+Delimitan las definiciones
+
+…
+&ltdl&gt
+  &ltdt&gtsoftware&lt/dt&gt
+  &ltdd&gtConjunto de programas, instrucciones y reglas informáticas para ejecutar ciertas tareas
+  en una computadora.&lt/dd&gt
+  &ltdt&gtlibre&lt/dt&gt
+  &ltdd&gtQue tiene facultad para obrar o no obrar.&lt/dd&gt
+  &ltdd&gtQue no es esclavo.&lt/dd&gt
+  &ltdd&gtQue no está preso.&lt/dd&gt
+  &ltdd&gtLicencioso,&lt/dd&gt
+&lt/dl&gt
+…
+
+<img src="dd.png"/>
+ 
+<strong>16.	&ltsection&gt</strong>
+Crea una columna principal que contiene los elementos mas relevantes del documento y se encuentra 
+en diferentes versiones (como divididas en bloques o columnas).
+
+&lt!DOCTYPE html&gt
+&lthtml lang="es"&gt
+&lthead&gt
+
+ &ltmeta charset="iso-8859-1"&gt
+ &ltmeta name="description" content="Ejemplo de HTML5"&gt
+ &ltmeta name="keywords" content="HTML5, CSS3, JavaScript"&gt
+
+ &lttitle&gtEste texto es el título del documento&lt/title&gt
+
+ &ltlink rel="stylesheet" href="misestilos.css"&gt
+
+&lt/head&gt
+&ltbody&gt
+
+ &ltheader&gt
+
+ &lth1&gtEste es el título principal del sitio web&lt/h1&gt
+
+ &lt/header&gt
+ &ltnav&gt
+
+ &ltul&gt
+ &ltli&gtprincipal&lt/li&gt
+ &ltli&gtfotos&lt/li&gt
+ &ltli&gtvideos&lt/li&gt
+ &ltli&gtcontacto&lt/li&gt
+ &lt/ul&gt
+ &lt/nav&gt
+
+
+ &ltsection&gt
+ &lt/section&gt
+
+&lt/body&gt
+&lt/html&gt
+
+<strong>17.	&ltaside&gt</strong>
+Crea una referencias, reseñas o entradas de un texto para facilitar la navegación del mismo no 
+ofrece información muy relevante del mismo texto. También se puede introducir dentro de la etiqueta
+&ltsection&gt como un elemento más relevante.
+
+&lt!DOCTYPE html&gt
+&lthtml lang="es"&gt
+&lthead&gt
+
+ &ltmeta charset="iso-8859-1"&gt
+ &ltmeta name="description" content="Ejemplo de HTML5"&gt
+ &ltmeta name="keywords" content="HTML5, CSS3, JavaScript"&gt
+
+ &lttitle&gtEste texto es el título del documento&lt/title&gt
+
+ &ltlink rel="stylesheet" href="misestilos.css"&gt
+
+&lt/head&gt
+&ltbody&gt
+ &ltheader&gt
+
+ &lth1&gtEste es el título principal del sitio web&lt/h1&gt
+
+ &lt/header&gt
+ &ltnav&gt
+
+ &ltul&gt
+ &ltli&gtprincipal&lt/li&gt
+ &ltli&gtfotos&lt/li&gt
+ &ltli&gtvideos&lt/li&gt
+ &ltli&gtcontacto&lt/li&gt
+ &lt/ul&gt
+
+ &lt/nav&gt
+
+ &ltsection&gt
+ &lt/section&gt
+
+ &ltaside&gt
+ &ltblockquote&gtTexto 1&lt/blockquote&gt
+ &ltblockquote&gtTexto 2&lt/blockquote&gt
+ &lt/aside&gt
+
+&lt/body&gt
+&lt/html&gt
+
+<strong>18.	&ltblockquote&gt</strong>
+Sirve para crear un bloque alrededor de un texto.
+…
+&ltblockquote&gt
+  &ltp&gt 
+    &ltstrong&gtNota.&lt/strong&gt Este es un Bloque de texto cuya estructura tiende a ser util 
+    para citas, reseñas, entradas para un bloc, criticas, etc. 
+  &lt/p&gt
+&lt/blockquote&gt
+…
+
+<img src="block.png"/>
+ 
+<strong>19.	&ltp&gt</strong>
+La etiqueta &ltp&gt se refiere a párrafo, se utiliza comúnmente para generar cuadros de texto en
+una página web.
+…
+&ltp&gt
+Esto 
+es un 
+párrafo
+&lt/p&gt
+…
+
+<img src="p.png"/>
+
+<strong>20.	&ltpre&gt</strong>
+Se utiliza para mantener el formato original en el que el texto es digitado en el código.
+…
+&ltpre&gtbody {
+  text-align: justify;
+}&lt/pre&gt
+
+&ltp&gtbody {
+  text-align: justify;
+}&lt/p&gt
+…
+
+<img src="pre.png"/>
+ 
+<strong>21.	&ltfooter&gt</strong>
+Se utiliza comúnmente como una sección institucional donde están los derechos reservados, fechas, 
+marcas, avisos legales, etc.
+…
+ &ltfooter&gt
+ Derechos Reservados &copy; 2018-2021
+ &lt/footer&gt
+…
+
+<strong>22.	&ltarticle&gt</strong>
+Esta etiqueta nos permite dividir los elementos en entradas e identificar cada una de sus partes.
+
+&lt!DOCTYPE html&gt
+&lthtml lang="es"&gt
+&lthead&gt
+
+&ltmeta charset="iso-8859-1"&gt
+ &ltmeta name="description" content="Ejemplo de HTML5"&gt
+ &ltmeta name="keywords" content="HTML5, CSS3, JavaScript"&gt
+
+ &lttitle&gtEste texto es el título del documento&lt/title&gt
+
+ &ltlink rel="stylesheet" href="misestilos.css"&gt
+
+&lt/head&gt
+&ltbody&gt
+
+ &ltheader&gt
+
+ &lth1&gtEste es el título principal del sitio web&lt/h1&gt
+
+ &lt/header&gt
+ &ltnav&gt
+
+ &ltul&gt
+ &ltli&gtprincipal&lt/li&gt
+ &ltli&gtfotos&lt/li&gt
+ &ltli&gtvideos&lt/li&gt
+ &ltli&gtcontacto&lt/li&gt
+ &lt/ul&gt
+
+ &lt/nav&gt
+
+ &ltsection&gt
+
+ &ltarticle&gt
+ Cuadro de Texto 1
+ &lt/article&gt
+ &ltarticle&gt
+ Cuadro de Texto 2
+ &lt/article&gt
+
+ &lt/section&gt
+
+
+ &ltaside&gt
+ &ltblockquote&gtMensaje número uno&lt/blockquote&gt
+ &ltblockquote&gtMensaje número dos&lt/blockquote&gt
+ &lt/aside&gt
+
+ &ltfooter&gt
+ Derechos Reservados &copy; 2010-2011
+ &lt/footer&gt
+
+&lt/body&gt
+&lt/html&gt
+
+<img src="article.png"/>
+
+<strong>23.	&ltmain&gt</strong>
+La etiqueta &ltmain&gt se utiliza para agrupar el contenido principal de una página, sin incluir 
+los elementos comunes a otras páginas como bloques de navegación, información general del sitio, etc.
+…
+&ltmain&gt
+  &lth1&gtManzana&lt/h1&gt
+  &ltp&gtLas manzanas es un fruto que crece en un Manzano.&lt/p&gt
+  
+  &ltarticle&gt
+    &lth2&gtSon Rojas y deliciosas&lt/h2&gt
+    &ltp&gtSe pueden encontrar en Supermercados.&lt/p&gt
+    &ltp&gt... &lt/p&gt
+    &ltp&gt... &lt/p&gt
+  &lt/article&gt
+&lt/main&gt
+…
+
+<img src="main.png"/>
+ 
+<strong>24.	&lth1&gt</strong>
+Dentro de &ltarticle&gt se incorpora los elementos &lth1&gt para declarar cabeceras títulos, 
+subtítulos, dar el tamaño de la fuente del texto.
+…
+&lth1&gtTítulo del mensaje uno&lt/h1&gt
+&lth2&gtTitulo del mensaje dos&lt/h2&gt
+&lth3&gtTítulo del mensaje tres&lt/h3&gt
+&lth4&gtTitulo del mensaje cuatro&lt/h4&gt
+&lth5&gtTítulo del mensaje cinco&lt/h5&gt
+&lth6&gtTitulo del mensaje seis&lt/h6&gt
+…
+ 
+<img src="h1.png"/>
+ 
+<strong>25.	&lthgroup&gt</strong>
+Para evitar mayor procesamiento interno se especifican las etiquetas &lth1&gt por niveles y evita 
+generar secciones innecesarias mientras el navegador lee el documento estableciendo una jerarquía 
+entre dichas etiquetas.
+
+&lt!DOCTYPE html&gt
+&lthtml lang="es"&gt
+&lthead&gt
+ &ltmeta charset="iso-8859-1"&gt
+ &ltmeta name="description" content="Ejemplo de HTML5"&gt
+ &ltmeta name="keywords" content="HTML5, CSS3, JavaScript"&gt
+ &lttitle&gtEste texto es el título del documento&lt/title&gt
+ &ltlink rel="stylesheet" href="misestilos.css"&gt
+&lt/head&gt
+&ltbody&gt
+ &ltheader&gt
+ &lth1&gtEste es el título principal del sitio web&lt/h1&gt
+ &lt/header&gt
+ &ltnav&gt
+ &ltul&gt
+ &ltli&gtprincipal&lt/li&gt
+ &ltli&gtfotos&lt/li&gt
+ &ltli&gtvideos&lt/li&gt
+ &ltli&gtcontacto&lt/li&gt
+ &lt/ul&gt
+ &lt/nav&gt
+ &ltsection&gt
+ &ltarticle&gt
+ &ltheader&gt
+
+ &lthgroup&gt
+ &lth1&gtTítulo del mensaje uno&lt/h1&gt
+ &lth2&gtSubtítulo del mensaje uno&lt/h2&gt
+ &lt/hgroup&gt
+&lt/header&gt
+ Este es el texto de mi primer mensaje
+ &lt/article&gt
+ &ltarticle&gt
+ &ltheader&gt
+ &lthgroup&gt
+ &lth1&gtTítulo del mensaje dos&lt/h1&gt
+ &lth2&gtSubtítulo del mensaje dos&lt/h2&gt
+ &lt/hgroup&gt
+&lt/header&gt
+ Este es el texto de mi segundo mensaje
+ &lt/article&gt
+ &lt/section&gt
+&lt/body&gt
+&lt/html&gt
+
+<strong>26.	&ltimg&gt</strong>
+Representa una imagen en el documento.
+…
+&ltimg src=”https://cutt.ly/Ggh2oef”&gt
+…
+<strong>27.	&lta&gt</strong>
+Crea un enlace a otras páginas de internet, archivos o ubicaciones (Hipertexto) dentro de la página,
+direcciones de correo, o cualquier otra URL
+…
+&lta href="https://youtube.com"&gtYoutube&lt/a&gt
+&lta href="https://facebook.com"&gtTwitter&lt/a&gt
+&lta href="https://twitter.com"&gtFacebook&lt/a&gt
+…
+
+<img src="a.png"/>
+ 
+<strong>28.	&ltfigure&gt</strong> 
+Se utiliza para representar elementos multimedia (imágenes, videos, diagramas) relacionados con el texto,
+además al identificarla como elemento multimedia externo puede ser removido sin afectar el documento en sí.
+…
+&ltfigure&gt
+ &ltimg src=”https://cutt.ly/Ggh2oef”&gt
+&lt/figure&gt
+…
+
+<strong>29.	&ltfigcaption&gt</strong>
+Es la leyenda o la descripción relacionado el elemento utilizado en la etiqueta &ltfigure&gt.
+…
+&ltfigure&gt
+ &ltimg src=”https://cutt.ly/tgh2auY”&gt
+ &ltfigcaption&gt
+ Friedrich August von Hayek
+ &lt/figcaption&gt
+ &lt/figure&gt
+… 
+
+<strong>30.	&ltvideo&gt</strong>
+Se utiliza para incrustar vídeos en un documento HTML o XHTML.
+…
+&ltvideo src="videofile.ogg" autoplay poster="posterimage.jpg"&gt
+  Tu navegador no admite el elemento &ltcode&gtvideo&lt/code&gt.
+&lt/video&gt
+…
+
+<strong>31.	&ltaudio&gt</strong>
+Se usa para insertar contenido de audio en un documento HTML o XHTML.
+…
+&ltaudio src="http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg"
+       autoplay&gt
+  Your browser does not support the &ltcode&gtaudio&lt/code&gt element.
+&lt/audio&gt
+…
+
+<strong>32.	&ltsource&gt</strong>
+Especifica recursos de medios múltiples para los elementos &ltpicture&gt, &ltaudio&gt, o &ltvideo&gt.
+Es un elemento vacío. Normalmente se utiliza para servir el mismo contenido multimedia en varios 
+formatos soportados por diferentes navegadores.
+…
+&ltvideo controls
+    width="250"
+    height="200"
+    muted&gt
+    &ltsource src="/media/cc0-videos/flower.webm"
+            type="video/webm"&gt
+    &ltsource src="/media/cc0-videos/flower.mp4"
+            type="video/mp4"&gt
+    This browser does not support the HTML5 video element.
+&lt/video&gt
+…
+
+<img src="source.png"/>
+ 
+<strong>33.	&ltmap&gt</strong>
+Nos permite definir una imagen con zonas seleccionables. Tiene una etiqueta name que especifica el 
+nombre del mapa y es obligatorio. Además, en la imagen tendremos que añadir el atributo usemap con el 
+nombre del mapa. En HTML5 si utilizamos el atributo id tiene que tener el mismo valor que el name.
+…
+&ltimg src="http://www.profesordeinformatica.com/images/mapa.gif" border="0" width="250" height="250" 
+usemap="#mapa"&gt
+&ltmap name="mapa"&gt
+&ltarea href="cuadrado.html" shape="rect" coords="18,124,111,219"&gt
+&ltarea href="circulo.html"  shape="circle" coords="128,60,50"&gt
+&ltarea href="triangulo.html" shape="poly" coords="139,200, 193,110, 236,199"&gt
+&lt/map&gt
+…
+
+<img src="map.png"/>
+ 
+<strong>34.	&ltmath&gt</strong>
+Se utiliza para definir una fórmula matemática.
+…
+  &ltmath&gt
+    &ltmrow&gt
+      &ltmrow&gt
+        &ltmsup&gt
+          &ltmi&gta&lt/mi&gt
+          &ltmn&gt2&lt/mn&gt
+        &lt/msup&gt
+        &ltmo&gt+&lt/mo&gt
+        &ltmsup&gt
+          &ltmi&gtb&lt/mi&gt
+          &ltmn&gt2&lt/mn&gt
+        &lt/msup&gt
+      &lt/mrow&gt
+      &ltmo&gt=&lt/mo&gt
+      &ltmsup&gt
+        &ltmi&gtc&lt/mi&gt
+        &ltmn&gt2&lt/mn&gt
+      &lt/msup&gt
+    &lt/mrow&gt
+  &lt/math&gt
+…
+
+<img src="math.png"/>
+ 
+<strong>35.	&ltiframe&gt</strong>
+La etiqueta &ltiframe&gt permite insertar un documento html dentro de otro. La etiqueta &ltiframe&gt
+ puede aparecer como elemento de bloque o como elemento en línea.
+…
+&ltiframe width="425" height="350"
+        src="https://www.google.com/maps/embed?origin=mfe&pb=!1m14!1m8!1m3!1d24637.230090345016!2d-0.
+        382204!3d39.477148!3m2!1i1024!2i768!4f13.1!3m3!1m2!2sies+abastos!4s11271517402525668942!6i14!
+        3m1!1ses!5m1!1ses"&gt
+&lt/iframe&gt
+…
+ 
+<strong>36.	&ltobject&gt</strong>
+Permite insertar cualquier tipo de documentos (no solamente de texto) dentro de un documento html. Para
+poder mostrar esos archivos, el navegador suele necesitar plug-ins.
+
+…
+&ltobject
+  type="text/html"
+  data="https://www.google.com/maps/embed?origin=mfe&pb=!1m14!1m8!1m3!1d24637.230090345016!2d-0.382204!3
+  d39.477148!3m2!1i1024!2i768!4f13.1!3m3!1m2!2sies+abastos!4s11271517402525668942!6i14!3m1!1ses!5m1!1ses"
+  style="width: 425px; height:350px;"&gt
+  ERROR (no puede mostrarse el objeto)
+&lt/object&gt
+…
+
+<img src="iframe.png"/>
+ 
+<strong>37.	&ltparam&gt</strong>
+Algunos tipos de documentos necesitan información adicional que se proporciona mediante la etiqueta 
+vacía &ltparam&gt.
+…
+&ltobject
+  type="application/x-shockwave-flash"
+  data="https://www.youtube.com/v/vZV-t3KzTpw"
+  style="width: 425px; height:350px;"&gt
+  &ltparam
+    name="movie"
+    value="https://www.youtube.com/v/vZV-t3KzTpw"&gt
+  ERROR (no puede mostrarse el objeto)
+&lt/object&gt
+…
+
+<img src="param.png"/>
+ 
+<strong>38.	&ltem&gt</strong>
+Sirve para implicar énfasis, además pone en letra cursiva el texto.
+…
+&ltp&gtSal de la Habitación ¡&ltem&gtahora&lt/em&gt!&lt/p&gt
+
+&ltp&gtTenemos que &ltem&gthacer&lt/em&gt algo importante sobre eso.&lt/p&gt
+
+&ltp&gtEsto &ltem&gtno&lt/em&gt se puede comer.&lt/p&gt
+…
+
+<img src="em.png"/>
+
+<strong>39.	&ltstrong&gt</strong> 
+Indica importancia y convierte el texto en negrita.
+…
+&ltp&gt
+     El dinero es importante, pero &ltstrong&gtla salud&lt/strong&gt lo es más.
+ &lt/p&gt
+…
+
+<img src="strong.png"/>
+
+<strong>40.	&ltmark&gt</strong>
+Resalta un texto relevante en el documento en alguna situación particular o como respuesta de la 
+actividad de un usuario.
+…
+&ltp&gtEste curso es &ltmark&gtLenguaje de Programacion III.&lt/mark&gt&lt/p&gt
+…
+
+<img src="mark.png"/>
+ 
+<strong>41.	&ltu&gt</strong>
+Subraya el texto.
+
+…
+&ltp&gt&ltu&gtEsto esta subrayuado&lt/u&gt Esto no &ltu&gtEsto si&lt/u&gt.&lt/p&gt
+…
+
+<img src="u.png"/>
+
+<strong>42.	&lts&gt</strong>
+Está pensada para indicar que se trata de información incorrecta o irrelevante.
+
+…
+&ltp&gt&lts&gtLa etiqueta &lt;s&gt; estaba desaconsejada en HTML 4.&lt/s&gt En HTML 5 la etiqueta 
+&lt;s&gt; se usa para marcar información obsoleta.&lt/p&gt
+…
+
+<img src="s.png"/>
+
+<strong>43.	&ltsmall&gt</strong>
+Esta etiqueta representa contenido al margen, como letra pequeña (restricciones legales, declaración 
+de derechos, descargos, etc.)
+…
+&ltp&gtAcepte el contrado&ltsmall&gt de por vida&lt/small&gt Firme aqui&lt/p&gt
+…
+
+<img src="small.png"/>
+ 
+<strong>44.	&ltcite&gt</strong>
+Como su nombre lo dice la etiqueta &ltcite&gt sirve para citar contenido bibliográfico (libros, películas,
+frases, etc.)
+
+…
+&ltp&gt"La mayoría de los argumentos contra el libre mercado se basan en la falta de confianza en la 
+libertad misma." &ltcite&gt Capitalism and Freedom (2002)&lt/cite&gt&lt/p&gt
+…
+
+<img src="cite.png"/>
+ 
+<strong>45.	&ltq&gt</strong>
+Identifica una cita o referencia a otras fuentes, también se puede agregar el atributo cite para referenciar
+directamente la página web de origen. (los navegadores pueden agregar automáticamente las comillas).
+
+…
+&ltp&gtMilton Fredman dijo una vez: &ltq&gtUna sociedad que priorice la igualdad por sobre la libertad no obtendrá
+ninguna de las dos cosas.&lt/q&gt&lt/p&gt
+…
+
+<img src="q.png"/>
+
+<strong>46.	&ltaddress&gt</strong>
+Encierra información de contacto (direcciones, edad, teléfono, nombres, etc.) para un elemento &ltarticle&gt o el 
+documento completo. Es preferente insertarlo dentro de la etiqueta &ltfooter&gt.
+…
+  &ltaddress&gt
+    Puedes entrar a la plataforma virtual de la UASD aqui: &lta href="http://www.https://www.uasd.edu.do/"&gtUniversidad
+    Autonoma de Santo Domingo&lt/a&gt.&ltbr&gt &ltbr&gt
+    
+    Para más información acudir a nuestra sede ubicada en:&ltbr&gt
+    Avenida Presidente Henríquez, San Pedro de Macoris 21000&ltbr&gt
+    &ltbr&gt
+    &ltstrong&gtTelefono:&lt/strong&gt&ltbr&gt
+    (809) 526-6777&ltbr&gt
+  &lt/address&gt
+…
+
+<img src="address.png"/>
+
+<strong>47.	&ltsup&gt</strong>
+Crea un superíndice, es muy utilizado en artículos científicos.
+
+…
+&ltp&gtEn matemáticas, una función exponencial es una función de la forma F(x)=ab&ltsup&gtn&lt/sup&gt.&lt/p&gt
+…
+
+<img src="sup.png"/>
+
+<strong>48.	&ltsub&gt</strong>
+Crea un subíndice, utilizado en artículos científicos principalmente sobre Química, matemáticas o física.
+
+…
+&ltp&gt2 H&ltsub&gt2&lt/sub&gt + O&ltsub&gt2&lt/sub&gt &rarr; 2 H&ltsub&gt2&lt/sub&gtO&lt/p&gt
+…
+
+<img src="sub.png"/>
+ 
+<strong>49.	&ltabbr&gt</strong>
+Se utiliza para crear abreviaturas o acrónimos. Si la etiqueta incluye el atributo title, este debe 
+contener el significado de la abreviatura.
+
+…
+&ltp&gtSitúa el cursor del ratón sobre la abreviatura &ltabbr title="cónfer (compárese, véase)"&gtcf&lt/
+abbr&gt para ver su significado.&lt/p&gt	
+…
+
+<img src="abbr.png"/>
+
+<strong>50.	&ltbr&gt</strong>
+Crea un simple salto de línea en el texto (no se debe utilizar para incrementar el espacio entre líneas 
+de texto para ello está la propiedad margin de CSS o la misma etiqueta &ltp&gt).
+…
+&ltp&gt 
+Hola,
+¿cómo
+estas?
+&lt/p&gt
+&ltp&gt 
+Hola,&ltbr&gt
+¿cómo&ltbr&gt
+estas?
+&lt/p&gt
+…
+
+<img src="br.png"/>
+ 
+<strong>51.	&lthr&gt</strong>
+Se utiliza para separar un párrafo de otro, tradicionalmente los navegadores marcan este salto 
+con una línea horizontal.
+…
+&ltp&gtQuien tiene un amigo tiene un tesoro.&lt/p&gt
+
+&ltp&gtAmigo en la adversidad, es amigo de verdad.&lt/p&gt
+
+&lthr&gt
+
+&ltp&gtCuando marzo mayea, mayo marcea.&lt/p&gt
+
+&ltp&gtLa primavera la sangre altera.&lt/p&gt
+…
+
+<img src="hr.png"/>
+
+<strong>52.	&lttime&gt</strong>
+Sirve para mostrar fecha y hora en formatos comprensibles por los usuarios y el navegador. El valor para los 
+usuarios es ubicado entre las etiquetas mientras que el específico para programas y navegadores es incluido 
+como valor del atributo datetime.
+…
+&ltp&gtEl evento empieza a las &lttime datetime="20:00"&gt20:00&lt/time&gt y más tarde empieza la cena en &lttime
+datetime="PT2H30M"&gt2h 30m&lt/time&gt.&lt/p&gt
+…
+
+<img src="time.png"/>
+ 
+<strong>53.	&ltdata&gt</strong>
+Incluye un atributo value la misma información que un texto, con un formato legible para maquinas.
+…
+&ltp&gtLa revista &ltdata value="ISSN:2054-3778"&gtLinux Voice&lt/data&gt ofrecía sus números anteriores de forma 
+gratuita, seis meses después de su publicación.&lt/p&gt
+…
+
+<img src="data.png"/>
+ 
+<strong>54.	&ltcode&gt</strong>
+Pensada para etiquetar fragmento de código de ordenador.
+…
+&ltp&gtEl primer programa que se enseña en un lenguaje de programación suele ser algo así como &ltcode&gtmain()
+{ printf ("Hola, mundo"); }&lt/code&gt&lt/p&gt
+…
+
+<img src="code.png"/>
+
+<strong>55.	&ltvar&gt</strong>
+Identifica una instancia de variable o de argumento de programa.
+…
+&ltp&gt&ltvar&gt$aludo&lt/var&gt = "Hola, Buenos dias";&lt/p&gt
+…
+
+<strong>56.	&ltsamp&gt</strong>
+Utilizado para identificar un ejemplo de salida de un programa o un script.
+…
+&ltp&gtAl ejecutar su primer programa, en la pantalla podrá leer &ltsamp&gtHola, mundo&lt/samp&gt.&lt/p&gt
+…
+
+<img src="samp.png"/>
+
+<strong>57.	&ltdfn&gt</strong>
+Se utiliza para identificar donde se define un término de texto.
+…
+&ltp&gtUn &ltdfn&gtbyte&lt/dfn&gt son ocho bits.&lt/p&gt
+…
+
+<img src="dfn.png"/>
+
+<strong>58.	&ltkbd&gt</strong>
+Está pensada para identificar pulsaciones de teclas o texto tecleado por el usuario.
+…
+&ltp&gtEn los navegadores, pulsando &ltkbd&gtCtrl+t&lt/kbd&gt se abre una nueva pestaña.&lt/p&gt
+…
+
+<img src="kbd.png"/>
+ 
+<strong>59.	&lti&gt</strong>
+Se le atribuye el nombre de tecnicismo, identifica textos con significados especiales, como nombres de especies,
+términos técnicos, expresiones extranjeras, etc.
+…
+&ltp&gtEl nombre científico del perro 
+es &lti&gtcanis lupus&lt/i&gt.&lt/p&gt
+…
+
+<img src="i.png"/>
+
+<strong>60.	&ltdel&gt</strong>
+Está pensada para identificar el texto que se ha eliminado de una página al revisarlo (si se quiere que se sepa 
+que se ha eliminado, claro).
+…
+&ltp&gtInternet Explorer 6 era un navegador bastante &ltdel&gtmalo&lt/del&gt mejorable. Internet Explorer 7 cumplía
+mejor las recomendaciones del W3C.&lt/p&gt
+…
+
+<img src="del.png"/>
+ 
+<strong>61.	&ltins&gt</strong>
+Está pensada para identificar el texto que se ha añadido a una página al revisarlo (si se quiere que se sepa que
+se ha añadido, claro).
+…
+&ltp&gtLa verdad es que Microsoft podría haber mejorado antes su navegador&ltins&gt, respetando las recomendaciones
+del W3C&lt/ins&gt.&lt/p&gt
+…
+
+<img src="ins.png"/>
+ 
+<strong>62.	&ltruby&gt</strong>
+Representa pequeñas anotaciones que se representan encima, debajo o al lado del texto base, que normalmente se utilizan
+para mostrar la pronunciación de caracteres de Asia oriental. También se puede utilizar para anotar otros tipos de texto, 
+pero este uso es menos común.
+…
+&ltruby&gt
+明日 &ltrp&gt(&lt/rp&gt&ltrt&gtAshita&lt/rt&gt&ltrp&gt)&lt/rp&gt
+&lt/ruby&gt
+…
+
+<strong>63.	&ltrt&gt</strong>
+Representa el texto de la anotación Ruby.
+…
+&ltruby&gt
+明日 &ltrp&gt(&lt/rp&gt&ltrt&gtAshita&lt/rt&gt&ltrp&gt)&lt/rp&gt
+&lt/ruby&gt
+…
+<strong>64.	&ltrp&gt</strong>
+Representa los paréntesis alrededor de una anotación ruby, usada para mostrar la anotación de manera alterna por los
+navegadores que no soporten despliegue estandar para las anotaciones.
+…
+&ltruby&gt
+明日 &ltrp&gt(&lt/rp&gt&ltrt&gtAshita&lt/rt&gt&ltrp&gt)&lt/rp&gt
+&lt/ruby&gt
+…
+
+<img src="ruby.png"/>
+ 
+<strong>65.	&ltbdi&gt</strong>
+Aisla un trozo de texto para que pueda ser formateado con una dirección diferente al texto que hay fuera de él.
+…
+&ltp dir="ltr"&gtEsta palabara arábica&ltbdi&gtARABIC_PLACEHOLDER&lt/bdi&gt se muestra automáticamente de derecha
+a izquierda.&lt/p&gt
+…
+
+<img src="bdi.png"/>
+ 
+<strong>66.	&ltbdo&gt</strong>
+Se utiliza para elegir la dirección en la que es escrita un texto. Es obligatorio especificar el atributo dir, 
+con el valor rtl (de derecha a izquierda) o ltr (de izquierda a derecha).
+…
+&ltp&gt&ltbdo dir="rtl"&gtEsta frase está escrita al derecho, pero debería leerse al revés&lt/bdo&gt.&lt/p&gt
+…
+
+<img src="bdo.png"/>
+
+<strong>67.	&lt!-- --&gt.</strong>
+Crea un comentario que solo se muestra en el código, sirve para organizar el código y comentarlo.
+…
+&ltp&gtEsto es un párrafo &lt/p&gt
+
+  &lt!--Esto es un ejemplo de comentario--&gt
+…
+ 
+<img src="coment.png"/>
+
+<strong>68.	&ltstyle&gt</strong>
+Permite incluir declaraciones de estilo que se aplican al propio documento. Es mas recomendable utilizar hojas
+CSS independientes.
+…
+  &ltstyle&gt
+    body { background-color: red; }
+  &lt/style&gt
+…
+
+<strong>69.	&ltform&gt</strong>
+Crea un formulario dentro del documento de texto, los atributos mas importantes de la etiqueta &ltform&gt son action:
+nombre del agente que procesará los datos remitidos del servidor, method: define la manera de enviar datos al servidor,
+get: los valores enviados se añaden a la dirección indicada en el atributo action, post: los valores se envían de forma 
+separada.
+…
+&ltform action="ejemplo.php" method="get"&gt
+  &ltp&gtNombre: &ltinput type="text" name="nombre" size="40"&gt&lt/p&gt
+  &ltp&gtAño de nacimiento: &ltinput type="number" name="nacido" min="1900"&gt&lt/p&gt
+  &ltp&gtSexo:
+    &ltinput type="radio" name="hm" value="h"&gt Hombre
+    &ltinput type="radio" name="hm" value="m"&gt Mujer
+  &lt/p&gt
+  &ltp&gt
+    &ltinput type="submit" value="Enviar"&gt
+    &ltinput type="reset" value="Borrar"&gt
+  &lt/p&gt
+&lt/form&gt
+…
+
+<img src="form.png"/>
+ 
+<strong>70.	&ltlabel&gt</strong>
+Asocia un elemento de control con un texto, mejorando la accesibilidad a los formularios.
+…
+&ltlabel&gt&ltinput type="checkbox" name="casilla"&gtCasilla 1&lt/label&gt
+&ltlabel&gtNombre: &ltinput type="text" name="casilla"&gt&lt/label&gt
+…
+
+<img src="label.png"/>
+ 
+<strong>71.	&ltinput&gt</strong>
+Es una etiqueta utilizada para manejar un conjunto de controles que permite introducir información.
+…
+&ltinput type="button"&gt
+&ltinput type="number"&gt
+&ltinput type="search"&gt
+&ltinput type="tel"&gt,
+&ltinput type="url"&gt
+&ltinput type="email"&gt
+&ltinput type="date"&gt
+&ltinput type="time"&gt
+&ltinput type="color"&gt
+&ltinput type="range"&gt
+…
+<strong>72.	&ltbutton&gt</strong>
+Sirve para crear botones, mientras que la etiqueta &ltinput&gt solo se puede introducir texto en el botón, 
+la etiqueta &ltbutton&gt puede incluir elementos html.
+…
+&ltbutton type="button"&gt
+  &ltimg src="cdlibre.png" alt="cdlibre.org" width="32" height="32" style="vertical-align: middle"&gt
+  Este botón no hace nada
+&lt/button&gt
+…
+
+
+<img src="button.png"/>
+ 
+<strong>73.	&ltselect&gt</strong>
+La etiqueta &ltselect&gt sirve para crear menús, cada opción de menú se define con la etiqueta &ltoption&gt.
+…
+&ltselect name="menu"&gt
+  &ltoption&gtUno&lt/option&gt
+  &ltoption&gtDos&lt/option&gt
+  &ltoption&gtTres&lt/option&gt
+&lt/select&gt
+…
+
+<img src="select.png"/>
+ 
+<strong>74.	&ltoptgroup&gt</strong>
+Se pueden agrupar opciones utilizando &ltoptgroup&gt.
+…
+&ltselect name="menu"&gt
+  &ltoption selected&gt...&lt/option&gt
+  &ltoptgroup label="Grupo1"&gt
+    &ltoption value="1"&gtOpción uno&lt/option&gt
+    &ltoption value="2"&gtOpción dos&lt/option&gt
+    &ltoption value="3"&gtOpción tres&lt/option&gt
+  &lt/optgroup&gt
+  &ltoptgroup label="Grupo2"&gt
+    &ltoption value="4"&gtOpción cuatro&lt/option&gt
+    &ltoption value="5"&gtOpción cinco&lt/option&gt
+    &ltoption value="6"&gtOpción seis&lt/option&gt
+  &lt/optgroup&gt
+&lt/select&gt
+…
+
+<img src="optgroup.png"/>
+ 
+<strong>75.	&ltoption&gt</strong>
+Crea los textos que aparecen en el menú, salvo si la etiqueta &ltoption&gt tiene el atributo value.
+…
+&ltselect name="menu"&gt
+  &ltoption&gtUno&lt/option&gt
+  &ltoption value="2"&gtDos&lt/option&gt
+  &ltoption value="three"&gtTres&lt/option&gt
+&lt/select&gt
+…
+
+<img src="option.png"/>
+ 
+<strong>76.	&lttextarea&gt</strong>
+Crea una caja de texto donde el usuario puede escribir texto libremente, los atributos rows y cols
+son obligatorios.
+…
+&lttextarea name="texto" rows="4" cols="40"&gtEscriba algo&lt/textarea&gt
+…
+ 
+<img src="textarea.png"/>
+
+<strong>77.	&ltoutput&gt</strong>
+La etiqueta &ltoutput&gt se usa para marcar el resultado de un cálculo o de una acción del usuario.
+…
+&ltform name="formulario1" onsubmit="return false" oninput="o.value = parseInt(a.value) + parseInt(b.value)"&gt
+    &ltinput name="a" type="number" step="any"&gt +
+    &ltinput name="b" type="number" step="any"&gt =
+    &ltoutput  name="o" for="a b"&gt&lt/output&gt
+&lt/form&gt
+…
+
+<img src="output.png"/>
+
+<strong>78.	&ltprogress&gt</strong>
+Crea una barra de progreso.
+…
+&ltlabel for="file"&gtFile progress:&lt/label&gt
+&ltprogress id="file" max="100" value="70"&gt 70% &lt/progress&gt
+…
+<strong>CSS</strong>
+…
+label {
+    padding-right: 10px;
+    font-size: 1rem;
+}
+…
+
+<img src="progress.png"/>
+
+<strong>79.	&ltmeter&gt</strong>
+La etiqueta &ltmeter&gt define una medida escalar dentro de un rango conocido, o un valor fraccionario. Esto también
+se conoce como un indicador.
+…
+&lth1&gtEl elemento meter&lt/h1&gt
+&ltp&gtEl meter es usado para indicadores y las muestra en pantalla:&lt/p&gt
+&ltlabel for="disk_c"&gtDisk usage C:&lt/label&gt
+&ltmeter id="disk_c" value="2" min="0" max="10"&gt2 out of 10&lt/meter&gt&ltbr&gt
+&ltlabel for="disk_d"&gtDisk usage D:&lt/label&gt
+&ltmeter id="disk_d" value="0.6"&gt60%&lt/meter&gt
+…
+
+<img src="meter.png"/>
+ 
+<strong>80.	&ltfieldset&gt</strong>
+La etiqueta &ltfieldset&gt permite agrupar un conjunto de controles. Los navegadores muestran una caja alrededor de
+cada grupo de controles.
+…
+&ltfieldset&gt
+  &ltlegend&gtDatos personales&lt/legend&gt
+  &ltp&gtNombre: &ltinput type="text" name="nombre" size="30"&gt&lt/p&gt
+  &ltp&gtEdad: &ltinput type="number" name="edad"&gt&lt/p&gt
+&lt/fieldset&gt
+
+&ltfieldset&gt
+  &ltlegend&gtCultura general&lt/legend&gt
+  &ltp&gtCapital de Noruega:
+    &ltinput type="radio" name="p1" value="1"&gt Copenhague
+    &ltinput type="radio" name="p1" value="2"&gt Helsinki
+    &ltinput type="radio" name="p1" value="3"&gt Oslo
+  &lt/p&gt
+  &ltp&gtFecha de la Revolución francesa:
+    &ltinput type="radio" name="p2" value="1"&gt 1492
+    &ltinput type="radio" name="p2" value="2"&gt 1789
+    &ltinput type="radio" name="p2" value="3"&gt 1917
+  &lt/p&gt
+&lt/fieldset&gt
+…
+
+<strong>81.	&ltlegend&gt</strong>
+La etiqueta &ltlegend&gt permite añadir una leyenda al &ltfieldset&gt. Los navegadores muestran la leyenda sobre el 
+borde que rodea el grupo de controles.
+…
+&ltfieldset&gt
+  &ltlegend&gtDatos personales&lt/legend&gt
+  &ltp&gtNombre: &ltinput type="text" name="nombre" size="30"&gt&lt/p&gt
+  &ltp&gtEdad: &ltinput type="number" name="edad"&gt&lt/p&gt
+&lt/fieldset&gt
+
+&ltfieldset&gt
+  &ltlegend&gtCultura general&lt/legend&gt
+  &ltp&gtCapital de Noruega:
+    &ltinput type="radio" name="p1" value="1"&gt Copenhague
+    &ltinput type="radio" name="p1" value="2"&gt Helsinki
+    &ltinput type="radio" name="p1" value="3"&gt Oslo
+  &lt/p&gt
+  &ltp&gtFecha de la Revolución francesa:
+    &ltinput type="radio" name="p2" value="1"&gt 1492
+    &ltinput type="radio" name="p2" value="2"&gt 1789
+    &ltinput type="radio" name="p2" value="3"&gt 1917
+  &lt/p&gt
+&lt/fieldset&gt
+…
+ 
+<img src="legend.png"/>
+
+<strong>82.	&ltdetails&gt</strong>
+La etiqueta &ltdetails&gt permite mantener oculta una parte de la página web, que el usuario puede hacer visible
+u ocultar de nuevo haciendo clic en un icono con forma de triángulo.
+…
+&ltp&gtEn la película de 1968 ... &lt/p&gt
+
+&ltdetails&gt
+  &ltsummary&gtSpoiler&lt/summary&gt
+  &ltp&gtEn la escena final, el protagonista encuentra ... &lt/p&gt
+&lt/details&gt
+…
+
+<img src="details.png"/>
+ 
+<strong>83.	&ltsummary&gt</strong>
+El elemento &ltsummary&gt se incluye dentro de un elemento &ltdetails&gt y contiene la parte del contenido que
+está siempre visible y sobre la que también se puede hacer clic para mostrar el resto del contenido
+…
+&ltdetails&gt
+    &ltsummary&gtSumario explicativo&lt/summary&gt
+    &ltp&gtDatos y texto, Datos y texto, Datos y texto, Datos y texto&lt/p&gt
+&lt/details&gt
+…
+
+<img src="summary.png"/>
+ 
+<strong>84.	&ltdialog&gt</strong>
+La etiqueta &ltdialog&gt permite definir el contenido de una ventana de diálogo modal (independiente de la página web).
+Para mostrar la ventana, se debe establecer el atributo open.
+…
+&ltdialog id="dialog-1"&gt
+  &lth1&gtVentana de diálogo&lt/h1&gt
+
+  &ltp&gtEsto es un ejemplo de ventana de diálogo&lt/p&gt
+
+  &ltp&gt
+    &ltinput type="button" value="Cerrar" onclick="document.getElementById('dialog-1').removeAttribute('open')"&gt
+  &lt/p&gt
+&lt/dialog&gt
+
+&ltp&gt
+  &ltinput type="button" value="Muestra diálogo" onclick="document.getElementById('dialog-1').setAttribute('open', 'open')"&gt
+&lt/p&gt
+…
+
+<img src="dialog.png"/>
+
+<strong>85.	&ltscript&gt</strong>
+Se utiliza para insertar o hacer referencia a un script ejecutable dentro de un documento HTML o XHTML.
+…
+&lt!-- HTML4 y (x)HTML --&gt
+&ltscript type="text/javascript" src="javascript.js"&gt&lt/script&gt
+
+&lt!-- HTML5 --&gt
+&ltscript src="javascript.js"&gt&lt/script&gt
+…
+<strong>86.	&ltnoscript&gt</strong>
+&ltnoscript&gt se utiliza para mostrar un mensaje al usuario cuando su navegador no puede ejecutar JavaScript.
+…
+&ltnoscript&gt
+  &ltp&gtBienvenido a Mi Sitio&lt/p&gt
+  &ltp&gtLa página que estás viendo requiere para su funcionamiento el uso de JavaScript.
+Si lo has deshabilitado intencionadamente, por favor vuelve a activarlo.&lt/p&gt
+&lt/noscript&gt
+…
+<strong>87.	&lttemplate&gt</strong>
+Es un mecanismo para mantener el contenido HTML del lado del cliente que no se renderiza cuando se carga una página,
+pero que posteriormente puede ser instanciado durante el tiempo de ejecución empleando JavaScript.
+…
+&lttable id="producttable"&gt
+  &ltthead&gt
+    &lttr&gt
+      &lttd&gtUPC_Code&lt/td&gt
+      &lttd&gtProduct_Name&lt/td&gt
+    &lt/tr&gt
+  &lt/thead&gt
+  &lttbody&gt
+    &lt!-- datos opcionales pueden incluirse aquí opcionalmente --&gt
+  &lt/tbody&gt
+&lt/table&gt
+
+&lttemplate id="productrow"&gt
+  &lttr&gt
+    &lttd class="record"&gt&lt/td&gt
+    &lttd&gt&lt/td&gt
+  &lt/tr&gt
+&lt/template&gt  
+…
+
+<strong>88.	&ltslot&gt</strong>
+Es un placeholder en un componente que puedes llenar con el propio marcado, que te permite crear árboles DOM por separado
+y presentarlos juntos.
+…
+&lttemplate id="element-details-template"&gt
+&ltdetails&gt
+    &ltdiv class="attributes"&gt
+      &ltslot name="attributes"&gt&ltp&gtNone&lt/p&gt&lt/slot&gt
+    &lt/div&gt
+  &lt/details&gt
+  &lthr&gt
+&lt/template&gt
+…
+
+<strong>89.	&ltcanvas&gt</strong>
+Se puede utilizar para dibujar gráficos a través de secuencias de comandos (por lo general JavaScript ).
+HTML</strong>
+…
+&lt/script&gt&ltcanvas id="rectangulos" width="300px" height="120px"&gt
+ Tu navegador no soporta canvas. &lt!-- Mensaje para mostrar si el navegador no soporta la etiqueta canvas --&gt
+&lt/canvas&gt
+…
+<strong>CSS</strong>
+…
+body {
+  background: rgb(29, 31, 32); 
+}
+#rectangulos {
+  margin: 20px auto;
+  display: block;
+}
+…
+<strong>JS</strong>
+…
+var c = document.getElementById("rectangulos");
+var cxt = c.getContext("2d");
+
+cxt.fillStyle = "#123456"; 
+cxt.fillRect(30,10,50,100); 
+
+cxt.strokeStyle = "red"; 
+cxt.strokeRect(70,32,100,50); 
+
+cxt.fillRect(145,25,70,70); 
+
+cxt.fillStyle = "rgba(220,220,10,0.7)"; 
+cxt.fillRect(180,10,100,100); 
+cxt.clearRect(30,10,20,20); 
+cxt.strokeRect(190,20,80,80); 
+…
+
+<img src="canvas.png"/>
+ 
+<strong>90.	&lttable&gt</strong>
+Una tabla HTML (&lttable&gt) es un conjunto de celdas (&lttd&gt o &ltth&gt) organizadas en filas (&lttr&gt) que a
+su vez se organizan en grupos de filas (&ltthead&gt, &lttbody&gt o &lttfoot&gt). Además, la tabla puede tener una
+leyenda (&ltcaption&gt) y hacer referencia a las columnas (&ltcol&gt y &ltcolspan&gt).
+…
+&lttable border="1"&gt
+  &ltcaption&gtEjemplo de tabla&lt/caption&gt
+  &lttbody&gt
+    &lttr&gt
+      &lttd&gt&lt/td&gt
+      &ltth&gtA&lt/th&gt
+      &ltth&gtB&lt/th&gt
+    &lt/tr&gt
+    &lttr&gt
+      &ltth&gt1&lt/th&gt
+      &lttd&gtA1&lt/td&gt
+      &lttd&gtB1&lt/td&gt
+    &lt/tr&gt
+    &lttr&gt
+      &ltth&gt2&lt/th&gt
+      &lttd&gtA2&lt/td&gt
+      &lttd&gtB2&lt/td&gt
+    &lt/tr&gt
+  &lt/tbody&gt
+&lt/table&gt
+…
+
+<strong>91.	&ltcaption&gt</strong>
+La leyenda (&ltcaption&gt) es texto explicativo opcional que se muestra fuera de la tabla (normalmente, arriba).
+La leyenda no puede incluir párrafos ni otros elementos de bloque, aunque sí etiquetas en línea (&ltstrong&gt,
+imágenes, etc).
+…
+&lttable border="1"&gt
+  &ltcaption&gtEjemplo de tabla&lt/caption&gt
+  &lttbody&gt
+    &lttr&gt
+      &lttd&gt&lt/td&gt
+      &ltth&gtA&lt/th&gt
+      &ltth&gtB&lt/th&gt
+    &lt/tr&gt
+    &lttr&gt
+      &ltth&gt1&lt/th&gt
+      &lttd&gtA1&lt/td&gt
+      &lttd&gtB1&lt/td&gt
+    &lt/tr&gt
+    &lttr&gt
+      &ltth&gt2&lt/th&gt
+      &lttd&gtA2&lt/td&gt
+      &lttd&gtB2&lt/td&gt
+    &lt/tr&gt
+  &lt/tbody&gt
+&lt/table&gt
+…
+
+<img src="caption.png"/>
+ 
+<strong>92.	&ltcolgroup&gt</strong>
+La etiqueta &ltcolgroup&gt permite definir grupos de columnas.
+…
+&lttable border="1" &gt
+  &ltcaption&gtLeyenda&lt/caption&gt
+  &ltcolgroup&gt&ltcol&gt&ltcol&gt&lt/colgroup&gt
+  &ltcolgroup&gt&ltcol&gt&lt/colgroup&gt
+  &lttbody&gt
+    &lttr&gt
+      &lttd&gt1&lt/td&gt
+      &lttd&gt2&lt/td&gt
+      &lttd&gt3&lt/td&gt
+    &lt/tr&gt
+  &lt/tbody&gt
+&lt/table&gt
+…
+
+<img src="colgroup.png"/>
+ 
+<strong>93.	&lttbody&gt</strong>
+Los elementos &lttbody&gt, &ltthead&gt y &lttfoot&gt abarcan una o varias filas seguidas para formar un grupo de filas. 
+…
+&lttable&gt
+  &ltcaption&gtEjemplo de tabla&lt/caption&gt
+  &ltthead&gt
+    &lttr&gt
+      &ltth&gtPaís&lt/th&gt
+      &ltth&gtCapital&lt/th&gt
+      &ltth&gtMoneda&lt/th&gt
+    &lt/tr&gt
+  &lt/thead&gt
+  &lttbody&gt
+    &lttr&gt
+      &lttd&gtReino de España&lt/td&gt
+      &lttd&gtMadrid&lt/td&gt
+      &lttd&gtEuro&lt/td&gt
+    &lt/tr&gt
+    &lttr&gt
+      &lttd&gtEstados Unidos Mexicanos&lt/td&gt
+      &lttd&gtCiudad de México&lt/td&gt
+      &lttd&gtPeso&lt/td&gt
+    &lt/tr&gt
+    &lttr&gt
+      &lttd&gtRepública Argentina&lt/td&gt
+      &lttd&gtBuenos Aires&lt/td&gt
+      &lttd&gtPeso&lt/td&gt
+    &lt/tr&gt
+  &lt/tbody&gt
+  &lttfoot&gt
+    &lttr&gt
+      &ltth&gtPaís&lt/th&gt
+      &ltth&gtCapital&lt/th&gt
+      &ltth&gtMoneda&lt/th&gt
+    &lt/tr&gt
+  &lt/tfoot&gt
+&lt/table&gt
+…
+
+<strong>94.	&ltthread&gt</strong>
+Un grupo de filas puede ser una cabecera de la tabla (&ltthead&gt).
+…
+&lttable&gt
+  &ltcaption&gtEjemplo de tabla&lt/caption&gt
+  &ltthead&gt
+    &lttr&gt
+      &ltth&gtPaís&lt/th&gt
+      &ltth&gtCapital&lt/th&gt
+      &ltth&gtMoneda&lt/th&gt
+    &lt/tr&gt
+  &lt/thead&gt
+  &lttbody&gt
+    &lttr&gt
+      &lttd&gtReino de España&lt/td&gt
+      &lttd&gtMadrid&lt/td&gt
+      &lttd&gtEuro&lt/td&gt
+    &lt/tr&gt
+    &lttr&gt
+      &lttd&gtEstados Unidos Mexicanos&lt/td&gt
+      &lttd&gtCiudad de México&lt/td&gt
+      &lttd&gtPeso&lt/td&gt
+    &lt/tr&gt
+    &lttr&gt
+      &lttd&gtRepública Argentina&lt/td&gt
+      &lttd&gtBuenos Aires&lt/td&gt
+      &lttd&gtPeso&lt/td&gt
+    &lt/tr&gt
+  &lt/tbody&gt
+  &lttfoot&gt
+    &lttr&gt
+      &ltth&gtPaís&lt/th&gt
+      &ltth&gtCapital&lt/th&gt
+      &ltth&gtMoneda&lt/th&gt
+    &lt/tr&gt
+  &lt/tfoot&gt
+&lt/table&gt
+…
+
+<strong>95.	&lttfoot&gt</strong>
+Un pie de tabla (&lttfoot&gt) o formar parte del contenido de la tabla (&lttbody&gt).
+
+…
+&lttable&gt
+  &ltcaption&gtEjemplo de tabla&lt/caption&gt
+  &ltthead&gt
+    &lttr&gt
+      &ltth&gtPaís&lt/th&gt
+      &ltth&gtCapital&lt/th&gt
+      &ltth&gtMoneda&lt/th&gt
+    &lt/tr&gt
+  &lt/thead&gt
+  &lttbody&gt
+    &lttr&gt
+      &lttd&gtReino de España&lt/td&gt
+      &lttd&gtMadrid&lt/td&gt
+      &lttd&gtEuro&lt/td&gt
+    &lt/tr&gt
+    &lttr&gt
+      &lttd&gtEstados Unidos Mexicanos&lt/td&gt
+      &lttd&gtCiudad de México&lt/td&gt
+      &lttd&gtPeso&lt/td&gt
+    &lt/tr&gt
+    &lttr&gt
+      &lttd&gtRepública Argentina&lt/td&gt
+      &lttd&gtBuenos Aires&lt/td&gt
+      &lttd&gtPeso&lt/td&gt
+    &lt/tr&gt
+  &lt/tbody&gt
+  &lttfoot&gt
+    &lttr&gt
+      &ltth&gtPaís&lt/th&gt
+      &ltth&gtCapital&lt/th&gt
+      &ltth&gtMoneda&lt/th&gt
+    &lt/tr&gt
+  &lt/tfoot&gt
+&lt/table&gt
+…
+
+<img src="tfoot.png"/>
+ 
+<strong>96.	&lttr&gt</strong>
+Son las filas de la tabla.
+…
+  &lttr&gt
+      &lttd&gtcelda A1&lt/td&gt
+      &lttd&gtcelda A2&lt/td&gt
+      &lttd&gtcelda A3&lt/td&gt
+    &lt/tr&gt
+    &lttr&gt
+      &lttd&gtcelda B1&lt/td&gt
+      &lttd&gtcelda B2&lt/td&gt
+      &lttd&gtcelda B3&lt/td&gt
+    &lt/tr&gt
+    &lttr&gt
+      &lttd&gtcelda C1&lt/td&gt
+      &lttd&gtcelda C2&lt/td&gt
+      &lttd&gtcelda C3&lt/td&gt
+    &lt/tr&gt
+…
+<strong>97.	&lttd&gt</strong>
+Crea una celda de datos en la tabla.
+…
+&lttable border="1"&gt
+  &ltcaption&gtFútbol 1º división&lt/caption&gt
+  &lttbody&gt
+    &lttr&gt
+      &lttd&gt&lt/td&gt
+      &ltth&gt2003/2004&lt/th&gt
+      &ltth&gt2004/2005&lt/th&gt
+    &lt/tr&gt
+    &lttr&gt
+      &ltth&gtCampeón&lt/th&gt
+      &lttd&gtValencia C.F.&lt/td&gt
+      &lttd&gtF.C. Barcelona&lt/td&gt
+    &lt/tr&gt
+    &lttr&gt
+      &ltth&gtSubcampeón&lt/th&gt
+      &lttd&gtF.C. Barcelona&lt/td&gt
+      &lttd&gtR. Madrid&lt/td&gt
+    &lt/tr&gt
+  &lt/tbody&gt
+&lt/table&gt
+…
+
+<strong>98.	&ltth&gt</strong>
+Crea una cabecera usualmente en negrita.
+&lttable border="1"&gt
+  &ltcaption&gtFútbol 1º división&lt/caption&gt
+  &lttbody&gt
+    &lttr&gt
+      &lttd&gt&lt/td&gt
+      &ltth&gt2003/2004&lt/th&gt
+      &ltth&gt2004/2005&lt/th&gt
+    &lt/tr&gt
+    &lttr&gt
+      &ltth&gtCampeón&lt/th&gt
+      &lttd&gtValencia C.F.&lt/td&gt
+      &lttd&gtF.C. Barcelona&lt/td&gt
+    &lt/tr&gt
+    &lttr&gt
+      &ltth&gtSubcampeón&lt/th&gt
+      &lttd&gtF.C. Barcelona&lt/td&gt
+      &lttd&gtR. Madrid&lt/td&gt
+    &lt/tr&gt
+  &lt/tbody&gt
+&lt/table&gt
+
+<img src="th.png"/>
+ 
+<strong>99.	&ltcol&gt</strong>
+La etiqueta vacía &ltcol&gt permite hacer referencia a una columna y la etiqueta.
+…
+&lttable border="1" &gt
+  &ltcaption&gtLeyenda&lt/caption&gt
+  &ltcolgroup&gt&ltcol&gt&ltcol&gt&lt/colgroup&gt
+  &ltcolgroup&gt&ltcol&gt&lt/colgroup&gt
+  &lttbody&gt
+    &lttr&gt
+      &lttd&gt1&lt/td&gt
+      &lttd&gt2&lt/td&gt
+      &lttd&gt3&lt/td&gt
+    &lt/tr&gt
+  &lt/tbody&gt
+&lt/table&gt
+…
+
+<strong>100.	&ltcolgroup&gt</strong>
+Permite definir grupos de columnas (de manera similar a como la etiqueta &lttbody&gt define grupos de filas).
+…
+&lttable border="1" &gt
+  &ltcaption&gtLeyenda&lt/caption&gt
+  &ltcolgroup&gt&ltcol&gt&ltcol&gt&lt/colgroup&gt
+  &ltcolgroup&gt&ltcol&gt&lt/colgroup&gt
+  &lttbody&gt
+    &lttr&gt
+      &lttd&gt1&lt/td&gt
+      &lttd&gt2&lt/td&gt
+      &lttd&gt3&lt/td&gt
+    &lt/tr&gt
+  &lt/tbody&gt
+&lt/table&gt
+…
+</pre>
+</body>
+</html>
